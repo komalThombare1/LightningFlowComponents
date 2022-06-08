@@ -26,10 +26,7 @@ public class Address {
         return new Address(column + deltaColumns, row);
     }
     
-    public Address shiftRight() {
-        return shiftRight(1);
-    }
-
+ 
     public Address shiftBelow(Integer deltaRows) {
         return new Address(column, row + deltaRows);
     }
